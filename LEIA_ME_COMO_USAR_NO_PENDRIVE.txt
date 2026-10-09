@@ -1,0 +1,55 @@
+================================================================================
+ ESSENCIAL ENERGIA - GESTOR DE ORDENS DE CARREGAMENTO & DISTRIBUIÇÃO DE CARGA
+ VERSÃO PORTÁTIL PARA PENDRIVE (PLUG & PLAY)
+ Revisão Oficial: REV 001/2026
+ Versão desenvolvida por Jonthan Oliveira
+================================================================================
+
+COMO USAR ESTA PASTA NO PENDRIVE EM QUALQUER COMPUTADOR:
+
+1. COPIAR PARA O PENDRIVE:
+   - Copie esta pasta completa ("Essencial Energia" ou todo o seu conteúdo)
+     para o seu PenDrive ou HD externo.
+
+2. ABRIR NO WINDOWS (QUALQUER COMPUTADOR):
+   - Conecte o PenDrive no computador (Windows 10, Windows 11, Windows 8 ou 7).
+   - Abra a pasta do aplicativo no PenDrive.
+   - Dê 2 cliques no arquivo:
+     
+     👉 INICIAR_SISTEMA.bat
+        (Abre automaticamente no navegador com servidor local nativo)
+
+     OU
+
+     👉 INICIAR_MODO_APP_WINDOWS.bat
+        (Abre como Aplicativo de Janela Exclusiva do Windows, sem barra de endereços!)
+
+     OU
+
+     👉 INICIAR_SEM_JANELA.vbs
+        (Abre o aplicativo de forma silenciosa, sem manter a janela preta aberta)
+
+3. NÃO PRECISA INSTALAR NADA:
+   - Não precisa de Node.js.
+   - Não precisa de Python.
+   - Não precisa de permissão de Administrador do Windows.
+   - Não precisa de conexão com a Internet (funciona 100% offline).
+
+4. PERSISTÊNCIA DOS SEUS DADOS NO PENDRIVE:
+   - Todas as ordens de carregamento, alterações e novos equipamentos do catálogo
+     são salvos automaticamente no arquivo:
+     
+     📁 dados_pendrive.json
+     
+   - Isso significa que você pode criar ou editar ordens no computador do pátio,
+     levar o PenDrive para o escritório ou para a carreta, e tudo estará lá!
+
+5. IMPRESSÃO E EXPORTAÇÃO:
+   - Clique em "Imprimir" ou pressione Ctrl + P para emitir a folha A4 oficial.
+   - Você também pode baixar em PDF oficial ou em TXT A4 direto na barra inferior.
+   - Na barra superior ou inferior, clique no botão "Pendrive" para acessar a
+     Central de Backup e sincronização rápida a qualquer momento.
+
+================================================================================
+Revisão: REV 001/2026 | Desenvolvido por Jonthan Oliveira
+================================================================================

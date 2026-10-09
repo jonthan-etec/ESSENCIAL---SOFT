@@ -1,0 +1,6 @@
+{
+  "name": "Essencial Energia - Gestor de Ordens de Carregamento",
+  "description": "Sistema interativo para emissão, cálculo de distribuição de peso e gestão técnica de ordens de carregamento para geradores e frotas de transporte.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

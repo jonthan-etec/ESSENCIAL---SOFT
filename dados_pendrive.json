@@ -1,0 +1,156 @@
+{
+  "versao": "REV 001/2026",
+  "desenvolvedor": "Jonthan Oliveira",
+  "atualizadoEm": "2026-10-08T12:00:00.000Z",
+  "ordens": [
+    {
+      "id": "oc_sample_0002_2026",
+      "ocNum": "0002/2026",
+      "data": "2026-10-07",
+      "horaPrevista": "08:30",
+      "notaFiscal": "14.892",
+      "quantidadeVolumes": 3,
+      "status": "Aprovado",
+      "prioridade": "Urgente",
+      "cliente": "MERCADO LIVRE (MELI)",
+      "obraProjeto": "Centro de Distribuição Resende - Galpão Logístico Expansão",
+      "destino": "MELI RESENDE - SRJ 16 (Rod. Pres. Dutra, km 302)",
+      "cidadeUf": "Resende / RJ",
+      "contatoLocal": "Eng. Marcelo Prado / Operações MELI",
+      "telefoneLocal": "(24) 99876-1122",
+      "veiculo": {
+        "modelo": "IVECO Toco 4x2 Eurocargo 160E28",
+        "placa": "BRA-4E26",
+        "tipoCarroceria": "CARROCERIA ABERTA",
+        "comprimento": 7.5,
+        "largura": 2.45,
+        "alturaGuarda": 0.6,
+        "pbtLimite": 16000,
+        "tara": 5800,
+        "motoristaNome": "Carlos Eduardo Silveira",
+        "motoristaCnh": "04598231499 - Cat. D",
+        "motoristaTelefone": "(11) 97123-4567",
+        "transportadora": "Essencial Frota Própria"
+      },
+      "equipamentos": [
+        {
+          "id": "eq_01",
+          "nome": "Gerador Cabinado GXX573 (500 kVA)",
+          "categoria": "Gerador",
+          "qtd": 1,
+          "comp": "4.0",
+          "larg": "1.4",
+          "alt": "2.2",
+          "pesoUn": 4200,
+          "posicao": "Dianteira",
+          "amarracao": "4x Cinta Catraca 5T + Calço",
+          "calco": true
+        },
+        {
+          "id": "eq_02",
+          "nome": "Tanque de Combustível Aéreo 2.000L",
+          "categoria": "Tanque",
+          "qtd": 1,
+          "comp": "2.0",
+          "larg": "1.2",
+          "alt": "1.5",
+          "pesoUn": 850,
+          "posicao": "Centro-Traseiro",
+          "amarracao": "2x Cinta Catraca 3T",
+          "calco": true
+        },
+        {
+          "id": "eq_03",
+          "nome": "Quadro de Transferência Automática (QTA) 800A",
+          "categoria": "Acessório",
+          "qtd": 1,
+          "comp": "1.0",
+          "larg": "0.8",
+          "alt": "1.8",
+          "pesoUn": 280,
+          "posicao": "Traseira",
+          "amarracao": "2x Cinta Catraca 3T + Palete Amarrado",
+          "calco": false
+        }
+      ],
+      "detalhesPosicionamento": "1. Cargas pesadas (geradores e usinas) devem obrigatoriamente ser assentadas sobre calços de borracha de alta densidade ou madeira tratada encostadas no para-cabine ou sobre o centro do conjunto de eixos traseiros.\n2. Cintas têxteis de amarração com catraca (capacidade mínima 3.000 kg ou 5.000 kg) devem ser inspecionadas antes de cada fixação.\n3. É estritamente proibido o tracionamento de cintas com cantos vivos sem cantoneiras de proteção plástica de alta resistência.",
+      "obsSeguranca": "• Velocidade máxima recomendada para conjunto carregado: 80 km/h em pista dupla e 60 km/h em pista simples.\n• Conferência periódica do tensionamento das catracas a cada 50 km percorridos ou após freadas bruscas.\n• Em caso de emergência ou avaria na carga, acionar o CCO Essencial Energia imediatamente.",
+      "checklist": [
+        { "id": "chk_1", "item": "Calços de madeira/borracha posicionados sob as sapatas ou berço do gerador", "conforme": true, "obrigatorio": true },
+        { "id": "chk_2", "item": "Cintas de poliéster com catraca travadas sem torção nos olhais originais", "conforme": true, "obrigatorio": true },
+        { "id": "chk_3", "item": "Cantoneiras de proteção plástica instaladas nos cantos da carenagem", "conforme": true, "obrigatorio": true },
+        { "id": "chk_4", "item": "Válvulas de drenagem de diesel e óleo conferidas e fechadas", "conforme": true, "obrigatorio": true },
+        { "id": "chk_5", "item": "Painel elétrico trancado com chave e disjuntores gerais desligados", "conforme": true, "obrigatorio": true },
+        { "id": "chk_6", "item": "Extintor de incêndio do caminhão dentro do prazo de validade", "conforme": true, "obrigatorio": true },
+        { "id": "chk_7", "item": "Placas de identificação de transporte e sinalização traseira visíveis", "conforme": true, "obrigatorio": true },
+        { "id": "chk_8", "item": "Guarda lateral travada e pinos de segurança afixados", "conforme": true, "obrigatorio": true }
+      ],
+      "assinaturas": {
+        "responsavelCarregamento": "Roberto Mendes - Coordenador de Logística",
+        "cargoResponsavel": "Logística & Pátio Central",
+        "dataHoraLiberacao": "07/10/2026 às 08:15",
+        "motoristaConferente": "Carlos Eduardo Silveira",
+        "termoAceite": true
+      },
+      "criadoEm": "2026-10-07T08:00:00Z",
+      "atualizadoEm": "2026-10-07T08:15:00Z"
+    }
+  ],
+  "catalogo": [
+    {
+      "nome": "Gerador Cabinado GXX573 (500 kVA)",
+      "categoria": "Gerador",
+      "comp": "4.0",
+      "larg": "1.4",
+      "alt": "2.2",
+      "pesoUn": 4200,
+      "amarracaoSugerida": "4x Cinta Catraca 5T nos olhais + Calço frontal",
+      "posicaoSugerida": "Dianteira",
+      "descricao": "Gerador a diesel silencioso 500 kVA trifásico com carenagem acústica e bacia interna."
+    },
+    {
+      "nome": "Gerador Cabinado 260 kVA",
+      "categoria": "Gerador",
+      "comp": "3.4",
+      "larg": "1.25",
+      "alt": "1.85",
+      "pesoUn": 2650,
+      "amarracaoSugerida": "4x Cinta Catraca 3T nos olhais + Calço de borracha",
+      "posicaoSugerida": "Centro-Dianteiro",
+      "descricao": "Gerador diesel carenado 260 kVA ideal para eventos ou redundância hospitalar."
+    },
+    {
+      "nome": "Gerador Cabinado 750 kVA",
+      "categoria": "Gerador",
+      "comp": "5.2",
+      "larg": "1.6",
+      "alt": "2.45",
+      "pesoUn": 6400,
+      "amarracaoSugerida": "6x Cinta Catraca 5T ou Corrente Grau 8",
+      "posicaoSugerida": "Centro",
+      "descricao": "Gerador industrial de grande porte para aplicações contínuas de alta demanda."
+    },
+    {
+      "nome": "Tanque de Combustível Aéreo 2.000L",
+      "categoria": "Tanque",
+      "comp": "2.0",
+      "larg": "1.2",
+      "alt": "1.5",
+      "pesoUn": 850,
+      "amarracaoSugerida": "2x Cinta Catraca 3T com calço de madeira",
+      "posicaoSugerida": "Centro-Traseiro",
+      "descricao": "Tanque metálico para abastecimento suplementar com contenção."
+    },
+    {
+      "nome": "Quadro de Transferência Automática (QTA) 800A",
+      "categoria": "Acessório",
+      "comp": "1.0",
+      "larg": "0.8",
+      "alt": "1.8",
+      "pesoUn": 280,
+      "amarracaoSugerida": "2x Cinta Catraca 3T + Palete Amarrado",
+      "posicaoSugerida": "Traseira",
+      "descricao": "Quadro elétrico inteligente para manobra de carga de gerador."
+    }
+  ]
+}
